@@ -1,0 +1,130 @@
+.title {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.head {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.comment {
+    margin-right: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    color: rgba(0, 184, 148, 1);
+}
+
+.likeleft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.nbrlike {
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.btnlike {
+    padding: 5px 20px 5px 20px;
+    border: none;
+    background-color: rgba(0, 184, 148, 1);
+    color: white;
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+
+}
+
+.btnlike:hover {
+    border-radius: 15px;
+}
+
+.like {
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.date {
+    color: gray;
+    margin-left: 20px
+}
+
+p {
+    font-size: 13px;
+}
+
+.name {
+    font-weight: 500;
+}
+
+.ctgr {
+    font-weight: 500;
+    color: rgba(0, 184, 148, 1);
+}
+
+.content {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.image {
+    background-color: rgba(0, 184, 147, 0.226);
+    height: 40%;
+}
+
+.card {
+    width: 400px;
+    background-color: rgba(223, 230, 233, 0.383);
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 50px;
+}
+
+.card:hover {
+    box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+select {
+    width: 200px;
+    height: 80%;
+    border: 2px rgba(253, 203, 110, 1) solid;
+    padding-left: 10px;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.661);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 3px;
+}
+
+.categorie {
+    height: 50px;
+    border-bottom: 1px rgba(128, 128, 128, 0.184) solid;
+}
+
+.select {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

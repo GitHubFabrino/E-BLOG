@@ -1,0 +1,157 @@
+.content {
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.form-control {
+    border: 2px rgba(0, 184, 148, 1) solid;
+    border-radius: 3px;
+    height: 30px;
+    padding-left: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.showModal {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(92, 90, 90, 0.927);
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(43, 38, 38, 0.801);
+}
+
+.Modifier:hover {
+    background-color: white;
+    color: rgba(0, 184, 148, 1);
+    font-weight: bold;
+}
+
+.erreur {
+    color: rgba(255, 0, 0, 0.803);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Modifier {
+    font-weight: bold;
+    height: 15%;
+    transition: all 0.7s ease-in-out;
+    border: 2px rgba(0, 184, 148, 1) solid;
+    background-color: rgba(0, 184, 148, 1);
+    border-radius: 3px;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login {
+    text-align: center;
+    font-weight: bold;
+}
+
+.formModal {
+    background-color: white;
+    width: 370px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 35px;
+    margin-top: 8%;
+    border-radius: 5px;
+    box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 12;
+}
+
+.divbtn {
+    text-align: right;
+}
+
+.form-label {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Annuller {
+    color: gray;
+    font-weight: bold;
+    border: none;
+    padding: 5px 12px 5px 12px;
+    border-radius: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+        Verdana, sans-serif;
+}
+
+.Annuller:hover {
+    color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(128, 128, 128, 0.381);
+    cursor: pointer;
+}
+
+.valider {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fade-enter-active {
+    transition: all 1s cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.fade-enter-to {
+    opacity: 1;
+}
+
+.fade-leave-from {
+    opacity: 1;
+}
+
+.fade-leave-active {
+    transition: all 0.2s cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.fade-leave-to {
+    opacity: 0;
+}
+
+.v-enter-from {
+    opacity: 0;
+}
+
+.v-enter-active {
+    transition: opacity 1s ease;
+}
+
+.v-enter-to {
+    opacity: 1;
+}
+
+.v-leave-from {
+    opacity: 1;
+}
+
+.v-leave-active {
+    transition: opacity 0.2s ease;
+}
+
+.v-leave-to {
+    opacity: 0;
+}
+
+.showModal {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    display: block;
+}
